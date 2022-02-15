@@ -9,7 +9,7 @@
 	//3. 로그아웃 처리를 한다.
 	session.removeAttribute("id");
 	//4. 응답
-%>    
+%>
 <!DOCTYPE html>
 <html>
 <head>

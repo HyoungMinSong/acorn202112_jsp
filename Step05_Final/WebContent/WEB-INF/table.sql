@@ -7,3 +7,9 @@ CREATE TABLE users(
 	profile VARCHAR2(100), --프로필 이미지 경로를 저장할 칼럼
 	regdate DATE
 );
+create table board_cafe(
+	num number primary key, writer varchar2(100) not null,
+	title varchar2(100) not null, content clob, viewCount number,
+	regdate date);
+
+create sequence board_cafe_seq;
